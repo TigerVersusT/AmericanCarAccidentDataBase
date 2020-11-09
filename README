@@ -1,0 +1,12 @@
+Requirments:
+	MySql shell 8.0
+	python 3.5+
+	
+usage:
+	mysqlsh
+	\sql
+	creae database caraccident;
+	\source createTable.sql
+	
+	cd currentdir
+	python createDatabase.py
