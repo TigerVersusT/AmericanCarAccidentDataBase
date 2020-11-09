@@ -45,7 +45,7 @@ class DataBase:
         print(dataSql)
         
         self.cursor.execute(addSql, dataSql)
-        self.connection.commit()
+        #self.connection.commit()
     
     def insertAll(self):
     
